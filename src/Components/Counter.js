@@ -23,7 +23,7 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        <h1>ds</h1>
+        <h1>Counter App</h1>
 
         <p data-testid="count-text">Count: {this.state.count}</p>
         <button data-testid="count" onClick={this.incrementCount}>Increment</button>
